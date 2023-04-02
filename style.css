@@ -1,0 +1,98 @@
+/*  
+    - Colors        [ 1.#37306B 2.#66347F 3.#9E4784 4.#D27685 ]
+    - Fonts         [ Barlow(400 500 800), Bebas Neue(400), Lilita One(400), Signika(300 500 700), Noto Sans Thai(200 500 800), Passion One(400 900) ]
+    - Text Styles   [ Font-weight, Font-size, Font-family ]
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;800&family=Bebas+Neue&family=Lilita+One&family=Noto+Sans+Thai:wght@200;500;800&family=Passion+One:wght@400;900&family=Signika:wght@300;500;700&display=swap');
+
+body {
+    margin: 0 5%;
+    font-family: "Bebas Neue";
+}
+
+.container {
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+}
+
+.colorblock {
+    display: inline-block;
+    text-align: center;
+    border-radius: 8px;
+    font-family: "Lilita One";
+    font-size: 25px;
+    margin: 10px 18px;
+}
+
+.Jacarta {
+    background-color: #37306B;
+    color: white;
+    width: 22%;
+}
+
+.Eminence {
+    background-color: #66347F;
+    color: white;
+    width: 22%;
+}
+
+.Cadillac {
+    background-color: #9E4784;
+    color: white;
+    width: 22%;
+}
+
+.Charm {
+    background-color: #D27685;
+    color: white;
+    width: 22%;
+}
+
+.fontblock {
+    display: inline-block;
+    margin: 10px 35px;
+}
+
+.Signika {
+    font-family: Signika;
+}
+
+.Barlow {
+    font-family: Barlow;
+}
+
+.NotoSansThai {
+    font-family: 'Noto Sans Thai';
+}
+
+.styleblock {
+    display: inline-block;
+    margin: 10px 100px;
+}
+
+.thin {
+    font-weight: 100;
+}
+
+.normal {
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.headerfont {
+    font-size: 24px;
+}
+
+.subheadfont {
+    font-size: 18px;
+}
+
+.paragraphfont {
+    font-size: 14px;
+}
